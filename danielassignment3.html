@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form/User Data</title>
+    <style>
+        *{
+            margin: 0; 
+            padding: 0;
+        }
+     body{ 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: bisque; font-size: 18px; margin: 50px 30px; margin-left: 50px; }
+        .container{
+            font-weight: 600px; text-align: justify;
+         }
+         #btn{
+            text-align: center;
+            border: 150px;
+             border-radius: 10px;
+             font-size: 25px;}
+          .h1{
+            color: blue; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 10px;
+          }
+          .info{
+            color: brown;
+          }
+      </style>
+</head>
+<body>
+    
+
+    <div class="h1"><h1>WELCOME</h1></div>
+        <div class="info"><p><b> Please kindly fill in your information<b></b></p></div><br>
+
+    <form action="homepage.html">
+        <div class="container">
+        <div><label for="first name">first name</label>
+        <input type="text" tittle="first name" placeholder="first name">
+        </div><br>
+        <div>
+            <label for="last name">last name</label>
+            <input type="text" title="last name" placeholder="last name">
+        </div><br>
+        <div>
+            <label for="email">email</label>
+            <input type="text" title="email" placeholder="email">
+        </div><br>
+        <div>
+            <label for="date-time">date-time</label>
+            <input type="datetime-local" title="">
+        </div><br>
+        <div>
+        <label for="sex"> female<input type="radio" title="sex" name="sex" id="female">
+        <label for="sex"> male<input type="radio" title="sex" name="sex" id="male">
+        </div><br>
+        <div>
+            <label for="password">password<sup>*</sup></label>
+            <input type="password" title="password" placeholder="password" required>
+        </div><br>
+        <div>
+        <textarea name="" id="" cols="60" rows="7" title="description" placeholder="additional information"></textarea> 
+        </div><br>
+        <div>
+            <label for="file">upload photo</label>
+            <input type="file" title="file">
+        </div><br>
+        <div>
+            <p>I agree that all information provided are correct?</p>
+            <label for="check">Yes<input type="radio" title="" name="check" id="Yes">
+            <label for="check">No<input type="radio" title="" name="check" id="No">
+        </div><br>
+        </div>
+
+        <div id="btn"><button type="submit">submit</button></div>
+
+    </form>
+
+
+
+</body>
+</html>
